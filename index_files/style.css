@@ -20,15 +20,14 @@ background: -moz-linear-gradient(top,  #bdf7f1 0%, #dbfbf8 53%, #f6fefd 100%);
 background: -webkit-linear-gradient(top,  #bdf7f1 0%,#dbfbf8 53%,#f6fefd 100%);
 background: linear-gradient(to bottom,  #c9fed1 0%,#dbfbf8 53%,#f6fefd 100%);
 }
-footer{
-  background: #000000 url("taskbar.png") repeat-x scroll 0 0;
+footer {
+  position: fixed;    
+  left: 0;            
+  right: 0;          
+  bottom: 0;          
+  background: #000 url("taskbar.png") repeat-x 0 0;
   height: 30px;
-  margin: 0px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-
+  margin: 0;
 }
 
 img.start{
